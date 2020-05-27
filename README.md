@@ -1,10 +1,38 @@
 # dorab-lib-template
 
-FIXME: my new template.
+clj-new template to be used for Dorab's libs.
 
 ## Usage
 
-FIXME: write usage documentation!
+## Basic Usage
+
+Set up an alias for clj-new
+
+```clj
+    {:aliases
+     {:new {:extra-deps {seancorfield/clj-new
+                         {:mvn/version "1.0.199"}}
+            :main-opts ["-m" "clj-new.create"]}}
+     ...}
+```
+
+### Using from Clojars
+
+The easiest way is to use clj-new and this template from Clojars. 
+To create an application with just the base template, use this commandline:
+
+```
+clj -A:new dorab-lib-template <myname/project-name>
+```
+
+where you might, for example, substitute `my-github-name/my-killer-app` for the
+`<myname/project-name>` bit or, perhaps, `my-orgname-name/an-early-masterpiece`.
+
+By default this will try to write the output to the path` myname/project-name`.
+If you want it to just go to `project-name` or some other arbitrary name you can
+append at the end `-o project-name` or whatever name you want.
+
+## Building the template repo itself
 
 Build a deployable jar of this template:
 
@@ -20,7 +48,6 @@ Deploy it to Clojars -- needs `CLOJARS_USERNAME` and `CLOJARS_PASSWORD` environm
 
 ## License
 
-Copyright © 2020 Dorab
+The MIT License (MIT)
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Copyright © 2020 Dorab Patel

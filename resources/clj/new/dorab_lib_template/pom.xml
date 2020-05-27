@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>dorab-lib-template</groupId>
-  <artifactId>clj-template</artifactId>
-  <version>0.1.0-SNAPSHOT</version>
-  <name>dorab-lib-template</name>
-  <description>clj-new template to be used for Dorab's libs.</description>
-  <url>https://github.com/syntereen/dorab-lib-template</url>
+  <groupId>{{group}}</groupId>
+  <artifactId>{{artifact}}</artifactId>
+  <version>{{version}}</version>
+  <name>{{artifact}}</name>
+  <description>{{description}}</description>
+  <url>https://github.com/{{group}}/{{artifact}}</url>
   <licenses>
     <license>
-      <name>MIT License</name>
-      <url>https://opensource.org/licenses/MIT</url>
+      <name>Eclipse Public License</name>
+      <url>http://www.eclipse.org/legal/epl-v10.html</url>
     </license>
   </licenses>
   <developers>
     <developer>
-      <name>Dorab Patel</name>
+      <name>{{developer}}</name>
     </developer>
   </developers>
   <scm>
-    <url>https://github.com/syntereen/dorab-lib-template</url>
-    <connection>scm:git:git://github.com/syntereen/dorab-lib-template.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/syntereen/dorab-lib-template.git</developerConnection>
+    <url>https://github.com/{{group}}/{{artifact}}</url>
+    <connection>scm:git:git://github.com/{{group}}/{{artifact}}.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/{{group}}/{{artifact}}.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
   <dependencies>

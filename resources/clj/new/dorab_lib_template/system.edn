@@ -1,0 +1,6 @@
+{
+ :secrets #include "secrets.edn"
+ :ig/system {
+             :{{nested-dirs}} nil
+             }
+ }
