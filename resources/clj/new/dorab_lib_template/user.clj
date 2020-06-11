@@ -49,3 +49,10 @@
 
 ;; So that clojure.tools.namespace knows which dirs to scan when refreshing.
 ((jit clojure.tools.namespace.repl/set-refresh-dirs) "dev" "src" "test")
+
+(comment
+  (require '[clojure.spec.alpha :as s])
+  (require '[cambium.core :as log])
+  (require '[{{namespace}}.specs :as {{artifact}}s])
+  (require '[{{namespace}} :as {{artifact}}])
+  )

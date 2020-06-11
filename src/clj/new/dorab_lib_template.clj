@@ -9,7 +9,7 @@
                       (project-data name)
                       {:developer "Dorab Patel"}
                       )]
-    (println "Generating fresh 'clj new' dorab-lib-template project.")
+    (println "Generating a fresh 'clj new' dorab-lib-template project.")
     ;; (println (pr-str data))
     (->files data
              ["deps.edn" (render "deps.edn" data)]
@@ -24,5 +24,6 @@
              ["CHANGELOG.md" (render "CHANGELOG.md" data)]
              ["pom.xml" (render "pom.xml" data)]
              ["dev/logback.xml" (render "logback-dev.xml" data)]
+             ["dev/user.clj" (render "user.clj" data)]
              ["resources/{{artifact}}/system.edn" (render "system.edn" data)]
              ["logs/.keep" ""])))
