@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>dorab-lib-template</groupId>
   <artifactId>clj-template</artifactId>
-  <version>0.1.1</version>
+  <version>0.1.2</version>
   <name>dorab-lib-template</name>
   <description>clj-new template to be used for Dorab's libs.</description>
   <url>https://github.com/syntereen/dorab-lib-template</url>
