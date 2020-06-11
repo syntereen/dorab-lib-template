@@ -4,7 +4,8 @@ This change log follows the conventions of [keepachangelog.com](http://keepachan
 
 ## [Unreleased]
 ### Changed
-- Nothing so far.
+- Use {{group}} in the CHANGELOG template.
+- Changed version tag names to start with `v`.
 
 ## [0.1.2]
 ### Changed
