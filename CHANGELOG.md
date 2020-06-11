@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file. This change
 
 ## [Unreleased]
 ### Changed
-- Nothing so far.
+- Minor changes to CHANGELOG to get links to work.
 
 ## [0.1.1] - 2020-06-10
 ### Added
@@ -15,6 +15,6 @@ All notable changes to this project will be documented in this file. This change
 ### Added
 - First working version.
 
-[Unreleased]: https://github.com/syntereen/dorab-lib-template/compare/0.1.1...HEAD
-[0.1.1]: https://github.com/syntereen/dorab-lib-template/compare/0.1.0...0.1.1
+[Unreleased]: https://github.com/syntereen/dorab-lib-template/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/syntereen/dorab-lib-template/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/syntereen/dorab-lib-template/releases/tag/v0.1.0
