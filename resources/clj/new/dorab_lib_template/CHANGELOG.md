@@ -6,7 +6,7 @@ This change log follows the conventions of [keepachangelog.com](http://keepachan
 ### Changed
 - Add a new arity to `make-widget-async` to provide a different widget shape.
 
-## [0.1.1] - {{date}}
+## [v0.1.1] - {{date}}
 ### Changed
 - Documentation on how to make the widgets.
 
@@ -16,11 +16,11 @@ This change log follows the conventions of [keepachangelog.com](http://keepachan
 ### Fixed
 - Fixed widget maker to keep working when daylight savings switches over.
 
-## 0.1.0 - {{date}}
+## [v0.1.0] - {{date}}
 ### Added
 - Files from the new template.
 - Widget maker public API - `make-widget-sync`.
 
-[Unreleased]: https://github.com/your-name/{{name}}/compare/v0.1.1...HEAD
-[0.1.1]: https://github.com/your-name/{{name}}/compare/v0.1.0...v0.1.1
-[0.1.0]: https://github.com/your-name/{{name}}/releases/tag/v0.1.0
+[Unreleased]: https://github.com/{{group}}/{{name}}/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/{{group}}/{{name}}/compare/v0.1.0...v0.1.1
+[0.1.0]: https://github.com/{{group}}/{{name}}/releases/tag/v0.1.0
