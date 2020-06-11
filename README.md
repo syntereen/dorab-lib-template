@@ -22,7 +22,7 @@ The easiest way is to use clj-new and this template from Clojars.
 To create an application with just the base template, use this command:
 
 ```
-clj -A:new dorab-lib-template <myname>/<project-name>
+$ clj -A:new dorab-lib-template <myname>/<project-name>
 ```
 
 where you might, for example, substitute `my-github-name/my-killer-app` for the
@@ -38,7 +38,7 @@ An alternative is to clone this repo locally.  In that case, use this
 command:
 
 ```
-clj -A:new <path-to-local-repo>::dorab-lib-template <myname>/<project-name>
+$ clj -A:new <path-to-local-repo>::dorab-lib-template <myname>/<project-name>
 ```
 
 
@@ -46,15 +46,21 @@ clj -A:new <path-to-local-repo>::dorab-lib-template <myname>/<project-name>
 
 Build a deployable jar of this template:
 
-    $ clojure -A:jar
+```
+$ clj -A:jar
+```
 
 Install it locally:
 
-    $ clojure -A:install
+```
+$ clj -A:install
+```
 
 Deploy it to Clojars -- needs `CLOJARS_USERNAME` and `CLOJARS_PASSWORD` environment variables:
 
-    $ clojure -A:deploy
+```
+$ clj -A:deploy
+```
 
 ## License
 
