@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file. This change log follows the conventions of [keepachangelog.com](http://keepachangelog.com/).
 
 ## [Unreleased]
+### Changed
+- Nothing so far.
+
+## [0.1.1] - 2020-06-10
 ### Added
 - Install dev/user.clj.
 ### Changed
